@@ -16,6 +16,10 @@
   "publishConfig": {
     "registry": "https://registry.npm.taobao.org/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digoler/Dragonboot.git"
+  },
   "scripts": {
     "test": "node ./__tests__/commitlint-config.test.js"
   },
