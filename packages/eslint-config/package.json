@@ -21,8 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/Digoler/Dragonboot.git"
   },
-  "bugs": {
-  },
+  "bugs": {},
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.16.3",
