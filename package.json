@@ -1,5 +1,5 @@
 {
-  "name": "Dragonboot",
+  "name": "dragonboot",
   "private": true,
   "workspaces": [
     "packages/*"
