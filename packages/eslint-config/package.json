@@ -18,7 +18,8 @@
   "author": "chenghuai",
   "license": "ISC",
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/Digoler/Dragonboot.git"
   },
   "bugs": {
   },
