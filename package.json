@@ -1,5 +1,5 @@
 {
-  "name": "root",
+  "name": "Dragonboot",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -16,14 +16,14 @@
   "devDependencies": {
     "@commitlint/cli": "^17.6.7",
     "husky": "^8.0.3",
-    "lerna": "^7.1.4"
+    "lerna": "^7.1.4",
+    "rimraf": "^5.0.1"
   },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "author": "",
   "license": "ISC",
   "description": "",
