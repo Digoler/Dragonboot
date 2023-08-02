@@ -1,6 +1,5 @@
 {
   "name": "dragonboot",
-  "private": true,
   "workspaces": [
     "packages/*"
   ],
