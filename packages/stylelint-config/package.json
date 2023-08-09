@@ -13,7 +13,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,5 @@
   "scripts": {
     "test": "node ./__tests__/stylelint-config.test.js"
   },
-  "gitHead": "5bbba2f691b18fcc6157886cae8e21a498ef4abd"
+  "gitHead": "010382c78ab318925799900977663bc5a706de3c"
 }
