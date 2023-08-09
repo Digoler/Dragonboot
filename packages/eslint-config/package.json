@@ -1,6 +1,6 @@
 {
   "name": "dragonboot-eslint-config",
-  "version": "1.1.7-alpha.0",
+  "version": "1.1.6",
   "main": "index.js",
   "description": "Dragonboot JavaScript TypeScript Node 规范",
   "keywords": [
@@ -14,7 +14,7 @@
     "test": "mocha ./__tests__/*.test.js --timeout 5000",
     "print-config": "eslint --print-config ./index.js > ./print-config.json"
   },
-  "author": "chenghuai",
+  "author": "junlongchen",
   "license": "ISC",
   "repository": {
     "type": "git",
