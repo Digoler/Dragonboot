@@ -21,5 +21,6 @@
   },
   "scripts": {
     "test": "node ./__tests__/stylelint-config.test.js"
-  }
+  },
+  "gitHead": "57f75a0b6b74b674c75a236e85d1897edad39637"
 }
