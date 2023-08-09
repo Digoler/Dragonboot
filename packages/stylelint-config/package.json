@@ -22,5 +22,5 @@
   "scripts": {
     "test": "node ./__tests__/stylelint-config.test.js"
   },
-  "gitHead": "061b1a221373a01e832e09a92628b4c50d653afb"
+  "gitHead": "5a12d49517bceab43596d545ae478f55bc62ae11"
 }

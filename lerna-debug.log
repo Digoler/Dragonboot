@@ -1,15 +1,172 @@
-41 error Error: Command failed with exit code 1: git commit -m chore(release) publish v1.1.1
-41 error ⧗   input: chore(release) publish v1.1.1
-41 error ✖   subject may not be empty [subject-empty]
-41 error ✖   type may not be empty [type-empty]
-41 error
-41 error ✖   found 2 problems, 0 warnings
-41 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-41 error
-41 error husky - commit-msg hook exited with code 1 (error)
-41 error     at makeError (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-41 error     at handlePromise (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\index.js:114:26)
-41 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
-41 error     at async VersionCommand.gitCommitAndTagVersion (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:8368:11)
-41 error     at async VersionCommand.commitAndTagUpdates (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:8340:18)
-41 error     at async Promise.all (index 0)
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '7.1.4',
+0 silly argv   '$0': 'node_modules/lerna/dist/cli.js'
+0 silly argv }
+1 notice cli v7.1.4
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath /Users/pupu/Desktop/open source/dragonboot/Dragonboot
+4 verbose session 501d7fd854564db9
+5 verbose user-agent lerna/7.1.4/node@v16.20.1+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '7.1.4' }
+7 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+8 verbose rootPath /Users/pupu/Desktop/open source/dragonboot/Dragonboot
+9 info current version 1.1.6-alpha.0
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly getCurrentBranch
+13 verbose currentBranch main
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 1
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.1.6-alpha.0-1-gda054bb" => {"lastTagName":"v1.1.6-alpha.0","lastVersion":"v1.1.6-alpha.0","refCount":"1","sha":"da054bb","isDirty":false}
+20 info Looking for changed packages since v1.1.6-alpha.0
+21 silly checking diff packages/commitlint-config
+22 silly found diff in packages/commitlint-config/package.json
+23 verbose filtered diff [ 'packages/commitlint-config/package.json' ]
+24 silly checking diff packages/eslint-config
+25 silly found diff in packages/eslint-config/package.json
+26 verbose filtered diff [ 'packages/eslint-config/package.json' ]
+27 silly checking diff packages/stylelint-config
+28 silly found diff in packages/stylelint-config/package.json
+29 verbose filtered diff [ 'packages/stylelint-config/package.json' ]
+30 verbose updated dragonboot-commitlint-config
+31 verbose updated dragonboot-eslint-config
+32 verbose updated dragonboot-stylelint-config
+33 verbose git-describe undefined => "v1.1.6-alpha.0-1-gda054bb"
+34 silly git-describe parsed => {"lastTagName":"v1.1.6-alpha.0","lastVersion":"v1.1.6-alpha.0","refCount":"1","sha":"da054bb","isDirty":false}
+35 info execute Skipping releases
+36 silly lifecycle No script for "preversion" in "dragonboot", continuing
+37 silly lifecycle No script for "preversion" in "dragonboot-commitlint-config", continuing
+38 silly lifecycle No script for "preversion" in "dragonboot-eslint-config", continuing
+39 silly lifecycle No script for "preversion" in "dragonboot-stylelint-config", continuing
+40 verbose version dragonboot-eslint-config has no lockfile. Skipping lockfile update.
+41 verbose version dragonboot-commitlint-config has no lockfile. Skipping lockfile update.
+42 verbose version dragonboot-stylelint-config has no lockfile. Skipping lockfile update.
+43 silly lifecycle No script for "version" in "dragonboot-commitlint-config", continuing
+44 silly lifecycle No script for "version" in "dragonboot-stylelint-config", continuing
+45 silly lifecycle No script for "version" in "dragonboot-eslint-config", continuing
+46 silly lifecycle No script for "version" in "dragonboot", continuing
+47 silly gitAdd [
+47 silly gitAdd   'packages/commitlint-config/package.json',
+47 silly gitAdd   'packages/stylelint-config/package.json',
+47 silly gitAdd   'packages/eslint-config/package.json',
+47 silly gitAdd   'lerna.json'
+47 silly gitAdd ]
+48 silly gitCommit chore(release) publish v1.1.6
+49 verbose git [ 'commit', '-m', ' chore(release) publish v1.1.6' ]
+50 silly gitTag v1.1.6 git tag %s -m %s
+51 verbose git [ 'tag', 'v1.1.6', '-m', 'v1.1.6' ]
+52 silly lifecycle No script for "postversion" in "dragonboot-commitlint-config", continuing
+53 silly lifecycle No script for "postversion" in "dragonboot-eslint-config", continuing
+54 silly lifecycle No script for "postversion" in "dragonboot-stylelint-config", continuing
+55 silly lifecycle No script for "postversion" in "dragonboot", continuing
+56 info git Pushing tags...
+57 silly gitPush origin main
+58 info publish Publishing packages to npm...
+59 notice Skipping all user and access validation due to third-party registry
+60 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+61 warn ENOLICENSE Packages dragonboot-commitlint-config, dragonboot-eslint-config, and dragonboot-stylelint-config are missing a license.
+61 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+61 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+62 silly getCurrentSHA
+63 verbose getCurrentSHA 5a12d49517bceab43596d545ae478f55bc62ae11
+64 warn lifecycle Skipping root "prepublish" because it has already been called
+65 silly lifecycle "prepare" starting in "dragonboot"
+66 info lifecycle dragonboot@1.0.0~prepare: dragonboot@1.0.0
+67 silly lifecycle "prepare" finished in "dragonboot"
+68 silly lifecycle No script for "prepublishOnly" in "dragonboot", continuing
+69 silly lifecycle No script for "prepack" in "dragonboot", continuing
+70 verbose pack-directory packages/commitlint-config
+71 verbose pack-directory packages/eslint-config
+72 verbose pack-directory packages/stylelint-config
+73 silly lifecycle No script for "prepublish" in "dragonboot-commitlint-config", continuing
+74 silly lifecycle No script for "prepublish" in "dragonboot-eslint-config", continuing
+75 silly lifecycle No script for "prepublish" in "dragonboot-stylelint-config", continuing
+76 silly lifecycle No script for "prepare" in "dragonboot-commitlint-config", continuing
+77 silly lifecycle No script for "prepare" in "dragonboot-eslint-config", continuing
+78 silly lifecycle No script for "prepare" in "dragonboot-stylelint-config", continuing
+79 silly lifecycle No script for "prepublishOnly" in "dragonboot-eslint-config", continuing
+80 silly lifecycle No script for "prepublishOnly" in "dragonboot-commitlint-config", continuing
+81 silly lifecycle No script for "prepublishOnly" in "dragonboot-stylelint-config", continuing
+82 silly lifecycle No script for "prepack" in "dragonboot-eslint-config", continuing
+83 silly lifecycle No script for "prepack" in "dragonboot-commitlint-config", continuing
+84 silly lifecycle No script for "prepack" in "dragonboot-stylelint-config", continuing
+85 silly lifecycle No script for "postpack" in "dragonboot-commitlint-config", continuing
+86 verbose packed packages/commitlint-config
+87 silly lifecycle No script for "postpack" in "dragonboot-stylelint-config", continuing
+88 verbose packed packages/stylelint-config
+89 silly lifecycle No script for "postpack" in "dragonboot-eslint-config", continuing
+90 verbose packed packages/eslint-config
+91 silly lifecycle No script for "postpack" in "dragonboot", continuing
+92 verbose publish dragonboot-commitlint-config
+93 verbose publish dragonboot-eslint-config
+94 verbose publish dragonboot-stylelint-config
+95 silly lifecycle No script for "publish" in "dragonboot-stylelint-config", continuing
+96 silly lifecycle No script for "postpublish" in "dragonboot-stylelint-config", continuing
+97 success published dragonboot-stylelint-config 1.1.6
+98 notice
+99 notice 📦  dragonboot-stylelint-config@1.1.6
+100 notice === Tarball Contents ===
+101 notice 2.9kB index.js
+101 notice 586B  package.json
+101 notice 140B  README.md
+102 notice === Tarball Details ===
+103 notice name:          dragonboot-stylelint-config
+103 notice version:       1.1.6
+103 notice filename:      dragonboot-stylelint-config-1.1.6.tgz
+103 notice package size:  1.5 kB
+103 notice unpacked size: 3.6 kB
+103 notice shasum:        68bd9828f5169a7a3582359de0b6f4df4b7e05d9
+103 notice integrity:     sha512-OlFthPaBG4gim[...]buWNIzdHLGEMA==
+103 notice total files:   3
+104 notice
+105 silly FetchError: request to https://registry.npmjs.org/dragonboot-eslint-config failed, reason: read ECONNRESET
+105 silly     at ClientRequest.<anonymous> (/Users/pupu/Desktop/open source/dragonboot/Dragonboot/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@3.0.3/node_modules/minipass-fetch/lib/index.js:130:14)
+105 silly     at ClientRequest.emit (node:events:513:28)
+105 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+105 silly     at TLSSocket.emit (node:events:525:35)
+105 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+105 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+105 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+105 silly  FetchError: request to https://registry.npmjs.org/dragonboot-eslint-config failed, reason: read ECONNRESET
+105 silly     at ClientRequest.<anonymous> (/Users/pupu/Desktop/open source/dragonboot/Dragonboot/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@3.0.3/node_modules/minipass-fetch/lib/index.js:130:14)
+105 silly     at ClientRequest.emit (node:events:513:28)
+105 silly     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+105 silly     at TLSSocket.emit (node:events:525:35)
+105 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+105 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+105 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+105 silly   code: 'ECONNRESET',
+105 silly   errno: 'ECONNRESET',
+105 silly   syscall: 'read',
+105 silly   type: 'system'
+105 silly }
+106 warn notice Package failed to publish: dragonboot-eslint-config
+107 error ECONNRESET request to https://registry.npmjs.org/dragonboot-eslint-config failed, reason: read ECONNRESET
+108 error errno "ECONNRESET" is not a valid exit code - exiting with code 1
+109 silly FetchError: network timeout at: https://registry.npmjs.org/dragonboot-commitlint-config
+109 silly     at Timeout.<anonymous> (/Users/pupu/Desktop/open source/dragonboot/Dragonboot/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@3.0.3/node_modules/minipass-fetch/lib/index.js:108:18)
+109 silly     at listOnTimeout (node:internal/timers:559:17)
+109 silly     at processTimers (node:internal/timers:502:7)
+109 silly  FetchError: network timeout at: https://registry.npmjs.org/dragonboot-commitlint-config
+109 silly     at Timeout.<anonymous> (/Users/pupu/Desktop/open source/dragonboot/Dragonboot/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@3.0.3/node_modules/minipass-fetch/lib/index.js:108:18)
+109 silly     at listOnTimeout (node:internal/timers:559:17)
+109 silly     at processTimers (node:internal/timers:502:7) {
+109 silly   code: 'FETCH_ERROR',
+109 silly   errno: 'FETCH_ERROR',
+109 silly   type: 'request-timeout'
+109 silly }
+110 warn notice Package failed to publish: dragonboot-commitlint-config
+111 error FETCH_ERROR network timeout at: https://registry.npmjs.org/dragonboot-commitlint-config
+112 error errno "FETCH_ERROR" is not a valid exit code - exiting with code 1
+113 error FetchError: request to https://registry.npmjs.org/dragonboot-eslint-config failed, reason: read ECONNRESET
+113 error     at ClientRequest.<anonymous> (/Users/pupu/Desktop/open source/dragonboot/Dragonboot/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@3.0.3/node_modules/minipass-fetch/lib/index.js:130:14)
+113 error     at ClientRequest.emit (node:events:513:28)
+113 error     at TLSSocket.socketErrorListener (node:_http_client:494:9)
+113 error     at TLSSocket.emit (node:events:525:35)
+113 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+113 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
