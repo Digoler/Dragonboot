@@ -1,5 +1,5 @@
-42 error Error: Command failed with exit code 1: git commit -m  chore(release) publish v1.1.9-alpha.0
-42 error ⧗   input:  chore(release) publish v1.1.9-alpha.0
+42 error Error: Command failed with exit code 1: git commit -m chore(release) publish v1.2.0
+42 error ⧗   input: chore(release) publish v1.2.0
 42 error ✖   subject may not be empty [subject-empty]
 42 error ✖   type may not be empty [type-empty]
 42 error
