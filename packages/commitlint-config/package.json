@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npm.org/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
   "dependencies": {
     "conventional-changelog-conventionalcommits": "^6.1.0"
   },
-  "gitHead": "57f75a0b6b74b674c75a236e85d1897edad39637"
+  "gitHead": "5bbba2f691b18fcc6157886cae8e21a498ef4abd"
 }
