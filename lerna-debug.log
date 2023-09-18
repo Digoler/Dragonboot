@@ -1,11 +1,15 @@
-17 error Error: Command failed with exit code 1: git remote update
-17 error error: RPC failed; curl 56 OpenSSL SSL_read: Connection was reset, errno 10054
-17 error fatal: expected flush after ref listing
-17 error error: Could not fetch origin
-17 error Fetching origin
-17 error     at makeError (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\lib\error.js:59:11)
-17 error     at Function.module.exports.sync (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\index.js:186:17)
-17 error     at Object.execSync (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+@lerna+child-process@7.1.4\node_modules\@lerna\child-process\index.js:39:16)
-17 error     at updateRemote (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:7613:18)
-17 error     at isBehindUpstream (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:7603:3)
-17 error     at VersionCommand.initialize (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:7913:57)
+46 error Error: Command failed with exit code 1: git commit -m chore(release) publish v1.2.3
+46 error ⧗   input: chore(release) publish v1.2.3
+46 error ✖   subject may not be empty [subject-empty]
+46 error ✖   type may not be empty [type-empty]
+46 error
+46 error ✖   found 2 problems, 0 warnings
+46 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+46 error
+46 error husky - commit-msg hook exited with code 1 (error)
+46 error     at makeError (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+46 error     at handlePromise (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\index.js:114:26)
+46 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+46 error     at async VersionCommand.gitCommitAndTagVersion (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:8368:11)
+46 error     at async VersionCommand.commitAndTagUpdates (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+lerna@7.1.4\node_modules\lerna\dist\index.js:8340:18)
+46 error     at async Promise.all (index 0)
