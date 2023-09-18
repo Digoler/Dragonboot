@@ -1,6 +1,6 @@
 {
   "name": "dragon-cli",
-  "version": "1.0.0",
+  "version": "1.2.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -35,11 +35,10 @@
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
-    "cross-spawn": "^7.0.3",
     "commitlint-config-dragon": "workspace:^",
-    "eslint-config-dragon": "workspace:^",
-    "stylelint-config-dragon": "workspace:^",
+    "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
+    "eslint-config-dragon": "workspace:^",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
     "fs-extra": "^9.0.1",
@@ -49,6 +48,7 @@
     "lodash": "^4.17.20",
     "ora": "^5.1.0",
     "strip-ansi": "^6.0.0",
+    "stylelint-config-dragon": "workspace:^",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
