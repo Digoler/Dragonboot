@@ -12,6 +12,10 @@
   "bin": {
     "dragonboot": "./bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digoler/Dragonboot.git"
+  },
   "devDependencies": {
     "@types/command-exists": "^1.2.0",
     "@types/cross-spawn": "^6.0.2",
@@ -35,10 +39,10 @@
     "chalk": "^4.1.0",
     "command-exists": "^1.2.9",
     "commander": "^6.2.1",
-    "commitlint-config-dragon": "workspace:^",
+    "commitlint-config-dragon": "^1.2.3",
     "cross-spawn": "^7.0.3",
     "ejs": "^3.1.5",
-    "eslint-config-dragon": "workspace:^",
+    "eslint-config-dragon": "^1.2.1",
     "execa": "^5.0.0",
     "fast-glob": "^3.2.11",
     "fs-extra": "^9.0.1",
@@ -48,9 +52,10 @@
     "lodash": "^4.17.20",
     "ora": "^5.1.0",
     "strip-ansi": "^6.0.0",
-    "stylelint-config-dragon": "workspace:^",
+    "stylelint-config-dragon": "^1.2.3",
     "terminal-link": "^2.1.1",
     "text-table": "^0.2.0",
     "vue-eslint-parser": "^7.3.0"
-  }
+  },
+  "gitHead": "77de5ff99276e5da8ff8653c42639e95256574d0"
 }
