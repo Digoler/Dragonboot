@@ -1,5 +1,5 @@
 17 error Error: Command failed with exit code 1: git remote update
-17 error fatal: unable to access 'https://github.com/Digoler/Dragonboot.git/': Failed to connect to github.com port 443: Timed out
+17 error fatal: unable to access 'https://github.com/Digoler/Dragonboot.git/': OpenSSL SSL_read: Connection was reset, errno 10054
 17 error error: Could not fetch origin
 17 error Fetching origin
 17 error     at makeError (E:\Web前端\more open source\Dragonboot\node_modules\.pnpm\registry.npmmirror.com+execa@5.0.0\node_modules\execa\lib\error.js:59:11)
