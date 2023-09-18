@@ -1,0 +1,56 @@
+{
+  "name": "dragon-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bin": {
+    "dragonboot": "./bin/index.js"
+  },
+  "devDependencies": {
+    "@types/command-exists": "^1.2.0",
+    "@types/cross-spawn": "^6.0.2",
+    "@types/ejs": "^3.1.0",
+    "@types/eslint": "^8.4.1",
+    "@types/fs-extra": "^9.0.13",
+    "@types/glob": "^7.2.0",
+    "@types/lodash": "^4.14.180",
+    "@types/node": "^14.14.11",
+    "@types/prettier": "^2.4.4",
+    "@types/stylelint": "^14.0.0",
+    "@types/text-table": "^0.2.2",
+    "copyfiles": "^2.4.1",
+    "jest": "^27.5.1",
+    "nyc": "^15.1.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "chalk": "^4.1.0",
+    "command-exists": "^1.2.9",
+    "commander": "^6.2.1",
+    "cross-spawn": "^7.0.3",
+    "commitlint-config-dragon": "workspace:^",
+    "eslint-config-dragon": "workspace:^",
+    "stylelint-config-dragon": "workspace:^",
+    "ejs": "^3.1.5",
+    "execa": "^5.0.0",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "is-docker": "^2.1.1",
+    "lodash": "^4.17.20",
+    "ora": "^5.1.0",
+    "strip-ansi": "^6.0.0",
+    "terminal-link": "^2.1.1",
+    "text-table": "^0.2.0",
+    "vue-eslint-parser": "^7.3.0"
+  }
+}
